@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <!-- Bootstrap 5 icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>News || CodeExperiment</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">CodeExperiment</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./working.html">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Courses</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Welcome -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="mx-2">
+                    <h1>Welcome to the <span class="text-primary">News Section <i class="bi bi-newspaper"></i></span></h1>
+                    <p class="lead my-4"><em>Here are posted our latest news and articles...</em></p>
+                </div>
+                <!-- Modify the image for a svg customized for the website that behave according dark/light modes -->
+                <img class="img-fluid w-50 d-none d-sm-block" src="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Cards -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <!-- Card -->
+                <div class="col-md">
+                    <div class="card bg-dark text-light h-100">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Introduction to Python
+                            </h3>
+                            <p class="card-text">
+                                This article gives an introduction to Python for everyone, explaining what is needed for start learning and detailing Python's applications
+                            </p>
+                            <a href="./working.html" class="btn btn-secondary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light h-100">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Front-End Development: An intro for everyone
+                            </h3>
+                            <p class="card-text">
+                                Have you ever wonder about how to design websites? Check this article about Front-End Development.
+                            </p>
+                            <a href="./working.html" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light h-100">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-book"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                New on Calculus class...
+                            </h3>
+                            <p class="card-text">
+                                Starting on Calculus I is always a challenge. In this article are exposed a few tips about how to do it and take better profit of each lecture.
+                            </p>
+                            <a href="./working.html" class="btn btn-secondary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2023 CodeExperiment</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
